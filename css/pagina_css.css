@@ -1,0 +1,144 @@
+
+
+*{
+	font-family: Arial;
+
+}
+
+p#comentari{
+float: center;
+margin: 100px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+padding: 10px;
+border: 1pt;
+border-style: solid;
+border-color: #0B6138;
+font-size: 1em;
+background-color: #E5E8E8;
+background-clip: content-box;
+
+
+}
+
+
+h1 {
+color: #48C9B0;
+ font-weight: bold;
+ font-size: 2.5em;
+}
+
+/* etiquetes filles dins de un td */
+td>label{
+	color:#088A4B;
+}
+
+td#punts>label{
+	color:#01DF74;
+	font-weight: bold;
+}
+
+/* titols tabla */
+tr#columna1{
+	font-size: 1.2em;
+	color: #1C1C1C;
+}
+
+
+
+}
+h1#titol{
+text-shadow: 1px 1px 9px #48C9B0;
+	
+}
+p#comentari{
+	box-shadow: 5px 5px 9px rgba(0,0,0,0.60);
+
+}
+
+
+div#imatge{
+		
+    background: url(http://hangoutwithyoga.com/images/custom-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 400px;
+}
+footer{
+	 border: 10px gray;
+    padding: 25px;
+    float: center;
+    background: url(https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/07/Icy-Polygons-640x400.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 1400px 600px;
+}
+
+div#btn1{
+	transform:translate(-110px,21px);
+	   
+}
+div#btn2{
+	transform:translate(100px);
+}
+div#parrafo{
+	transform: scale(1.1,1.1);
+}
+div#divtitol{
+
+
+    animation-name: example;
+    animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: #48C9B0;}
+    to {background-color: white;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: #48C9B0;}
+    to {background-color: white;}
+}
+}
+
+div#coche>img#imgcoche{
+	height: 60px;
+	padding-left: 30px;
+}
+
+div#coche{
+
+       width: 100px;
+    height: 100px;
+    
+    position: relative;
+
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example2 {
+    0%   { left:0px; top:0px;}
+
+    100% { left:1200px; top:0px;}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
