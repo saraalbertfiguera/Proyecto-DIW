@@ -1,0 +1,30 @@
+.header{
+	display: none;
+}
+
+.navl{
+	display:none;
+}
+
+.navr{
+	display: none;
+}
+
+
+
+.tabla__camp{
+	
+	font-size: 1em;
+	
+
+}
+
+.tabla__pp{
+font-size: 2em;
+
+
+}
+
+.tabla__camp__inputnumber{
+	height: 30%;
+}

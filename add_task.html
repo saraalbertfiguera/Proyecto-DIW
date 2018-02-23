@@ -8,64 +8,40 @@
   </head>
   
   <body>
-<div class="form">
+<form class="form" method="post" action="index.html">
       
       
       
       <div class="tab-content">
           
-          <h1>Datos del alumno</h1>
+          <h1>Task data</h1>
           
         
           
           <div class="top-row">
             <div class="field-wrap">
-              <label>
-                Name
-              </label>
-              <input type="text" required autocomplete="off" /></div>
+            
+              <input type="text" placeholder="Task name" required  /></div>
         
             <div class="field-wrap">
-              <label>
-                Surname
-              </label>
-              <input type="text"required autocomplete="off"/>
+              
+              <input type="textarea" placeholder="Task description" required />
             </div>
           </div>
 
           <div class="field-wrap">
-            <label>
-              Email
-            </label>
-            <input type="email"required autocomplete="off"/>
+           
+            <input type="number" placeholder="Task weight" required />
           </div>
           
-          <div class="field-wrap">
-            <label>
-              Password
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-          <a href="index.html">
-            <button  class="button button-block">Confirm</button>
-          </a>
-          </form>
-
-       
         
-       
           
-          
-          
-          <button class="button button-block"/></button>
-          
+           <input type="submit" value="Confirm" class="button"></input>
          
 
         
-        
       </div><!-- tab-content -->
       
-</div> <!-- /form -->
+</form> <!-- /form -->
 
 </body>

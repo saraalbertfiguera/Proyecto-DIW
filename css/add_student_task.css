@@ -51,7 +51,8 @@ a {
   list-style:none;
   padding:0;
   margin:0 0 40px 0;
-  &:after {
+}
+  .tab-group:after {
     content: "";
     display: table;
     clear: both;
@@ -69,10 +70,11 @@ a {
     text-align:center;
     cursor:pointer;
     transition:.5s ease;
-    &:hover {
-      background:darken(#1ab188,5%);
+  }
+    li a:hover {
+      background:grey;
       color:white;
-    }
+    
   }
   .active a {
     background:#1ab188;
@@ -173,6 +175,7 @@ textarea {
   border-radius:0;
   padding:15px 0;
   font-size:2rem;
+  width: 100%;
   font-weight:$bold;
   text-transform:uppercase;
   letter-spacing:.1em;
@@ -180,15 +183,13 @@ textarea {
   color:white;
   transition:all.5s ease;
   -webkit-appearance: none;
-  &:hover, &:focus {
-    background:darken(#1ab188,5%);
   }
+  .button:hover{
+    background:grey;
+  
 }
 
-.button-block {
-  display:block;
-  width:100%;
-}
+
 
 .forgot {
   margin-top:-20px;
