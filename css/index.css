@@ -5,9 +5,11 @@ $gris_oscur:#13232f;
 $verd:#1ab188;
 $blanc:white;
 */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 *{
-	font-family: Roboto;
+	font-family: 'Roboto';
+
 }
 /*MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
   
@@ -149,6 +151,8 @@ body{
 .tabla__pp{
 font-size: 3em;
 color:#1ab188;
+width: 20%;
+text-align: center;
 
 }
 
@@ -203,8 +207,9 @@ color:#1ab188;
 
 		.footer__footright__icon{
 			width: 10%;
-			margin: 5%;
+			margin: 8%;
 			height: 50%;
+			text-align: center;
 
 		}
 
@@ -266,6 +271,8 @@ color:#1ab188;
 .tabla__pp{
 font-size: 2em;
 color:#1ab188;
+width: 20%;
+text-align: center;
 
 }	
 
@@ -329,6 +336,8 @@ color:#1ab188;
 .tabla__pp{
 font-size: 1.5em;
 color:#1ab188;
+width: 20%;
+text-align: center;
 
 }	
 
